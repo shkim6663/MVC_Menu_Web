@@ -29,7 +29,6 @@ form.jsp(점심 메뉴 등록 폼페이지)
     </div>
     </form>
 
-
 **3.메뉴 등록 요청 처리 **
 
 1)MenuController.java(등록 처리 부분)
@@ -52,6 +51,7 @@ form.jsp(점심 메뉴 등록 폼페이지)
     // 등록 후 메뉴 목록 페이지로 이동
     response.sendRedirect("menu");  // list.jsp 직접 접근 대신 반드시 서블릿으로 이동
     }
+
 
 2)MenuService.java
 
@@ -77,6 +77,7 @@ form.jsp(점심 메뉴 등록 폼페이지)
     }
 
 **4.메뉴 목록 조회 페이지**
+
 list.jap
 
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -114,6 +115,8 @@ list.jap
     </html>
 
 **5.랜덤 추천 기능**
+
+
 1)MenuService.java(랜덤 추천기능)
       
     public Menu getRandomMenu() {
