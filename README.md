@@ -2,6 +2,8 @@
 Servlet과 JSP를 활용해 MVC 패턴 기반의 점심 메뉴 추천 웹앱을 구현**
 
 **1. 시연영상**
+   
+   
    [![영상 보기](https://img.youtube.com/vi/oZkq03Pzh6c/0.jpg)](https://youtu.be/oZkq03Pzh6c)
 
 **2.점심 메뉴 등록 폼 페이지 구성**
